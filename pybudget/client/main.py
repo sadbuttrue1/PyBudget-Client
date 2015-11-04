@@ -1,3 +1,3 @@
-from pybudget.client.auth.auth import register
+from pybudget.client.auth.auth import register, get_token
 
-register('test', 'test')
+print(get_token('test', 'test'))
